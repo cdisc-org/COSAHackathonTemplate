@@ -1,21 +1,23 @@
 # Setup Repository (Create a copy, update and add members)
 
-To use the template to create your own workshop repository, you can create a new repository using this template as source.
-
-You could also create a "fork", but you can only have one fork, meaning if you plan multiple collabortions, you can use the "fork" way just once. For this the instructions below are to create a new repository based on another.
+To use the template to create your own repository, you can create a new repository in your area by using this source.
 
 ## Create new repository from template
 
-To create a new repository based from this template, please perform the following steps:
+To create a new repository based from this template, just the "Use this template" needs to be clicked:
 
-- click the "+" in the top navigation -> "Import repository"
-- Enter the URL containing the .git postfix:
-  - `https://github.com/cdisc-org/COSAWorkshopTemplate`
+- Create GitHub account / login to GitHub
+- Open https://github.com/cdisc-org/COSAHackathonTemplate 
+- Click "Use this template"
 - Edit project name
 - Make the repository public to allow others to see and contribute
 - Click "Begin import"
 
 Now you need to wait until the import is finished. Then click the new link to your repository to update this.
+
+The following animation shows this process:
+
+![Animation to use this repository](./newFromTemplate_01.gif)
 
 ## Update repository
 
@@ -40,6 +42,10 @@ Committing files:
   - Enter a commit message
   - "Commit and Push" to immediately put all changes live
   - or "Create Pull Request" to review and accept the changes in a separate step
+
+The following animation shows this process:
+
+![Animation to update content of repository](./newFromTemplate_02.gif)
 
 ## Grant members access
 
